@@ -1,4 +1,5 @@
 *.log
 /build/*
 /target/*
+*.t3x
 !.gitkeep

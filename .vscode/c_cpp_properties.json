@@ -8,11 +8,10 @@
         "/opt/devkitpro/devkitARM/arm-none-eabi/include",
         "/opt/devkitpro/libctru/include"
       ],
-      "defines": ["_DEBUG", "_UNICODE", "WIN32", "ARM7", "ARM9"],
+      "defines": ["_DEBUG", "_UNICODE", "_DEFAULT_SOURCE", "ARM7", "ARM9"],
       "browse": {
         "path": [
           "${workspaceFolder}",
-          "${workspaceFolder}/include/**",
           "/opt/devkitpro/devkitARM/include",
           "/opt/devkitpro/devkitARM/arm-none-eabi/include",
           "/opt/devkitpro/libctru/include"
